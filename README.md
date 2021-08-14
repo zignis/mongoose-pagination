@@ -1,2 +1,2 @@
 # mongoose-pagination
-A pagination demo using mongoose and express
+A simple pagination demo using mongoose and express.
