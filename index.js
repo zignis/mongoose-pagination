@@ -14,7 +14,7 @@ mongoose.connect(YOUR_MONGO_URL, {
   console.log("Unable to connect to the Mongodb database. Error:" + err);
 });
 
-//Using root URI
+//Using base URL
 app.get("/", async (req, res) => {
     let { page, sort } = req.query; //Get URL queries
     if(!page){page=1;} //Set the page number to default if not specified in the URL
